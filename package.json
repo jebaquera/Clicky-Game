@@ -1,0 +1,26 @@
+{
+  "name": "clicky-game",
+  "version": "1.0.0",
+  "description": "Clicky game created using React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jebaquera/Clicky-Game.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Juan Baquera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jebaquera/Clicky-Game/issues"
+  },
+  "homepage": "https://github.com/jebaquera/Clicky-Game#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
