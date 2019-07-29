@@ -7,7 +7,6 @@ import Row from "./Row";
 import Column from "./Column";
 import Wrapper from "./components/Wrapper";
 import Card from "./components/Card";
-// import Footer from "./components/Footer";
 import popArt from "./popArt.json";
 import "./App.css";
 
@@ -50,7 +49,7 @@ class App extends Component {
       this.setState({ topScore: newScore });
     }
     else if (newScore === 12) {
-      this.setState({ rightWrong: "Amazing!" });
+      this.setState({ rightWrong: "AMAZING!" });
     }
     this.handleShuffle();
   };
@@ -59,7 +58,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: "Pow!",
+      rightWrong: "POW! BAM!",
       clicked: []
     });
     this.handleShuffle();
@@ -74,14 +73,14 @@ render() {
   return (
     <Wrapper>
       <Nav
-        title="POP ART"
+        title="ART POP"
         score={this.state.currentScore}
         topScore={this.state.topScore}
         rightWrong={this.state.rightWrong}
       />
 
       <Title>
-        To play: Click on a pop art masterpiece, but don't click on the same image twice or you lose. Guess all 12 and win!
+        Click on a Pop Art masterpiece, but don't click on the same image twice or you lose. Guess all 12 to win!
       </Title>
 
       <Container>
@@ -107,17 +106,3 @@ render() {
 }
 
 export default App;
-
-// when you click on a card ... the pop art image is taken out of the array
-
-
-// if you click on a pop art image that has already been selected, the game is reset and cards reordered
-
-
-// if you click on an available pop art image, your score is increased and cards reordered
-
-
-// if you get all 12 pop art images correct, you get a congrats message and the game resets        
-
-
-// the order of components to be rendered: nav, title, wrapper, card

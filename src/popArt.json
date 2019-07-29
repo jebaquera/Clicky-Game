@@ -1,62 +1,62 @@
 [
     {
         "id": 1,
-        "image": "./images/rbritto-good-girl.png",
-        "clicked": false
-    },
-    {
-        "id": 2,
-        "image": "./images/awarhol-liz-taylor.png",
-        "clicked": false
-    },
-    {
-        "id": 3,
-        "image": "./images/jmbasquiat.png",
-        "clicked": false
-    },
-    {
-        "id": 4,
-        "image": "./images/pmax-love.png",
-        "clicked": false
-    },
-    {
-        "id": 5,
-        "image": "./images/kharing-twisted-man.png",
-        "clicked": false
-    },
-    {
-        "id": 6,
-        "image": "./images/rlichtenstein-blam.png",
-        "clicked": false
-    },
-    {
-        "id": 7,
-        "image": "./images/ykusama-pumpkin.png",
-        "clicked": false
-    },
-    {
-        "id": 8,
         "image": "./images/rlichtenstein-crying-girl.png",
         "clicked": false
     },
     {
+        "id": 2,
+        "image": "./images/mschifano-coca-cola.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "./images/kharing-stop-aids.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "./images/awarhol-liz-taylor.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "./images/chinese-propaganda.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "./images/awarhol-coca-cola.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "./images/rlichtenstein-ha-ha.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "./images/kharing-untitled.png",
+        "clicked": false
+    },
+    {
         "id": 9,
-        "image": "./images/awarhol-campbells-soup.png",
+        "image": "./images/kharing-andy-mouse.png",
         "clicked": false
     },
     {
         "id": 10,
-        "image": "./images/tyokoo-hino-moto-no-keko.png",
+        "image": "./images/rbritto-good-girl.png",
         "clicked": false
     },
     {
         "id": 11,
-        "image": "./images/jon-tyson-OdRHKuvoa4M-unsplash.jpg",
+        "image": "./images/awarhol-flowers.png",
         "clicked": false
     },
     {
         "id": 12,
-        "image": "./images/kharing-stop-aids.png",
+        "image": "./images/rlichtenstein-blam.png",
         "clicked": false
     }
 ]
