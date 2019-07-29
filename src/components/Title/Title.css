@@ -1,9 +1,15 @@
 .title {
     width: 100%;
     text-align: right;
-    font-size: 2rem;
-    color: #444;
+    font-size: 24px;
+    color: rgb(56, 56, 56);
     margin-bottom: 50px;
     padding-left: 3%;
-    padding-right: 3%;  
+    padding-right: 3%;
+    font-family: 'Raleway Dots', cursive;
 }
+
+/* font-family: 'Londrina Outline', cursive; */
+/* font-family: 'Comfortaa', cursive;   */
+/* font-family: 'Montserrat', sans-serif; */
+
