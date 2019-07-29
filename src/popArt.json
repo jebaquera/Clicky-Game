@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "image": "./images/rbritto-good-girl.png",
+        "image": "./src/images/rbritto-good-girl.png",
         "clicked": false
     },
     {
         "id": 2,
-        "image": "./awarhol-liz-taylor.png",
+        "image": "./src/images/awarhol-liz-taylor.png",
         "clicked": false
     },
     {
         "id": 3,
-        "image": "/src/images/jmbasquiat.png",
+        "image": "./src/images/jmbasquiat.png",
         "clicked": false
     },
     {
@@ -21,7 +21,7 @@
     },
     {
         "id": 5,
-        "image": "../src/images/kharing-twisted-man.png",
+        "image": "./src/images/kharing-twisted-man.png",
         "clicked": false
     },
     {
@@ -46,7 +46,7 @@
     },
     {
         "id": 10,
-        "image": "./srcimages/tyokoo-hino-moto-no-keko.png",
+        "image": "./src/images/tyokoo-hino-moto-no-keko.png",
         "clicked": false
     },
     {
