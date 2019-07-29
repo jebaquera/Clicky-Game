@@ -1,62 +1,62 @@
 [
     {
         "id": 1,
-        "image": "",
+        "image": "rbritto-good-girl.png",
         "clicked": false
     },
     {
         "id": 2,
-        "image": "",
+        "image": "awarhol-liz-taylor.png",
         "clicked": false
     },
     {
         "id": 3,
-        "image": "",
+        "image": "jmbasquiat.png",
         "clicked": false
     },
     {
         "id": 4,
-        "image": "",
+        "image": "pmax-love.png",
         "clicked": false
     },
     {
         "id": 5,
-        "image": "",
+        "image": "kharing-twisted-man.png",
         "clicked": false
     },
     {
         "id": 6,
-        "image": "",
+        "image": "rlichtenstein-blam.png",
         "clicked": false
     },
     {
         "id": 7,
-        "image": "",
+        "image": "ykusama-pumpkin.png",
         "clicked": false
     },
     {
         "id": 8,
-        "image": "",
+        "image": "rlichtenstein-crying-girl.png",
         "clicked": false
     },
     {
         "id": 9,
-        "image": "",
+        "image": "awarhol-campbells-soup.png",
         "clicked": false
     },
     {
         "id": 10,
-        "image": "",
+        "image": "tyokoo-hino-moto-no-keko.png",
         "clicked": false
     },
     {
         "id": 11,
-        "image": "",
+        "image": "jon-tyson-OdRHKuvoa4M-unsplash.jpg",
         "clicked": false
     },
     {
         "id": 12,
-        "image": "",
+        "image": "kharing-stop-aids.png",
         "clicked": false
     }
 ]
