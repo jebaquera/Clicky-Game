@@ -2,12 +2,33 @@
 import React, { Component } from "react";
 import Nav from "./components/Nav";
 import Title from "./components/Title";
+import Container from "./Container";
+import Row from "./Row";
+import Column from "./Column";
 import Wrapper from "./components/Wrapper";
 import Card from "./components/Card";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import popArt from "./popArt.json";
 import "./App.css";
 
+
+// function shufflePopArt(array) {
+//   for (let i = array.length - 1; i > 0; i--) {
+//     let j = Math.floor(Math.random() * (i + 1));
+//     [array[i], array[j]] = [array[j], array[i]];
+//   }
+//   return array;
+// };
+
+class App extends Component {
+  // Set this.state
+  state = {
+    popArt,
+    currentScore: 0,
+    topScore: 0,
+    rightWrong: "",
+    clicked: [],
+  };
 // sets state to 0 or empty
 
 
@@ -24,26 +45,41 @@ import "./App.css";
 
 
 // the order of components to be rendered: nav, title, wrapper, card, footer
+
 render() {
-    return (
-      <div>
-        <Nav 
-          score={this.state.score}
-        />
-        <Title />
-        <div className="wrapper">
+  return (
+    <Wrapper>
+      <Nav
+        title="Pop Art Clicky Game"
+        score={this.state.currentScore}
+        topScore={this.state.topScore}
+        rightWrong={this.state.rightWrong}
+      />
+
+      <Title>
+        This is a memory game. Try to click on each pop art image, but don't hit any duplicates or you lose. Guess all 12 and you win!
+      </Title>
+
+      <Container>
+        <Row>
           {this.state.popArt.map(popArt => (
-            <Card
-              imageClick={this.imageClick}
-              id={popArt.id}
-              key={popArt.id}
-              image={popArt.image}
-            />
+            <Column size="md-3 sm-6">
+              <Card
+                key={popArt.id}
+                handleClick={this.handleClick}
+                handleIncrement={this.handleIncrement}
+                handleReset={this.handleReset}
+                handleShuffle={this.handleShuffle}
+                id={popArt.id}
+                image={popArt.image}
+              />
+            </Column>
           ))}
-        </div>
-        <Footer />
-      </div>
-    );
-  }
+        </Row>
+      </Container>
+    </Wrapper>
+  );
 }
+}
+
 export default App;
