@@ -50,14 +50,14 @@ render() {
   return (
     <Wrapper>
       <Nav
-        title="Pop Art Clicky Game"
+        title="POP ART"
         score={this.state.currentScore}
         topScore={this.state.topScore}
         rightWrong={this.state.rightWrong}
       />
 
       <Title>
-        This is a memory game. Try to click on each pop art image, but don't hit any duplicates or you lose. Guess all 12 and you win!
+        This is a memory game. Try to click on each image, but don't click the same picture twice or you lose. Guess all 12 and you win!
       </Title>
 
       <Container>
