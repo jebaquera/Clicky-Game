@@ -1,6 +1,6 @@
 # React "Clicky Game"
 ## ART POP
-<img src="./images/art-pop-landing.png">
+<img src="./public/images/art-pop-landing.png">
 
 ## Overview
 For this assignment, the requirements were to create a memory game using React. The assignment required breaking up the application's UI into components, manage component state, and respond to user events.
