@@ -42,7 +42,7 @@ class App extends Component {
   handleIncrement = () => {
     const newScore = this.state.currentScore + 1;
     if (newScore >= this.state.topScore) {
-      this.setState({ topScore: newScore });
+      this.setState({ topScore: newScore, currentScore: newScore });
     }
     else if (newScore === 12) {
       this.setState({ 
