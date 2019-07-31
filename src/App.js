@@ -49,7 +49,12 @@ class App extends Component {
       this.setState({ topScore: newScore });
     }
     else if (newScore === 12) {
-      this.setState({ rightWrong: "AMAZING!" });
+      this.setState({ 
+        currentScore: 0,
+        topScore: this.state.topScore,
+        rightWrong: "AMAZING!",
+        clicked: [] 
+    });
     }
     this.handleShuffle();
   };
@@ -69,40 +74,40 @@ class App extends Component {
     this.setState({ popArt: shuffledPopArt });
   };
 
-render() {
-  return (
-    <Wrapper>
-      <Nav
-        title="ART POP"
-        score={this.state.currentScore}
-        topScore={this.state.topScore}
-        rightWrong={this.state.rightWrong}
-      />
+  render() {
+    return (
+      <Wrapper>
+        <Nav
+          title="ART POP"
+          score={this.state.currentScore}
+          topScore={this.state.topScore}
+          rightWrong={this.state.rightWrong}
+        />
 
-      <Title>
-        Click on a Pop Art masterpiece, but don't click on the same image twice or you lose. Guess all 12 to win!
+        <Title>
+          Click on a Pop Art masterpiece, but don't click on the same image twice or you lose. Guess all 12 to win!
       </Title>
 
-      <Container>
-        <Row>
-          {this.state.popArt.map(popArt => (
-            <Column size="md-3 sm-6">
-              <Card
-                key={popArt.id}
-                handleClick={this.handleClick}
-                handleIncrement={this.handleIncrement}
-                handleReset={this.handleReset}
-                handleShuffle={this.handleShuffle}
-                id={popArt.id}
-                image={popArt.image}
-              />
-            </Column>
-          ))}
-        </Row>
-      </Container>
-    </Wrapper>
-  );
-}
+        <Container>
+          <Row>
+            {this.state.popArt.map(popArt => (
+              <Column size="md-3 sm-6">
+                <Card
+                  key={popArt.id}
+                  handleClick={this.handleClick}
+                  handleIncrement={this.handleIncrement}
+                  handleReset={this.handleReset}
+                  handleShuffle={this.handleShuffle}
+                  id={popArt.id}
+                  image={popArt.image}
+                />
+              </Column>
+            ))}
+          </Row>
+        </Container>
+      </Wrapper>
+    );
+  }
 }
 
 export default App;
