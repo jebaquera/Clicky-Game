@@ -1,6 +1,7 @@
 {
   "name": "clicky-game",
   "version": "1.0.0",
+  "homepage": "https://jebaquera.github.io/Clicky-Game",
   "description": "Clicky game created using React",
   "main": "index.js",
   "scripts": {
@@ -23,7 +24,6 @@
   "bugs": {
     "url": "https://github.com/jebaquera/Clicky-Game/issues"
   },
-  "homepage": "https://github.com/jebaquera/Clicky-Game#readme",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
